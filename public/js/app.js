@@ -23467,7 +23467,7 @@ var _hoisted_2 = {
   "class": "navbar navbar-expand-lg navbar-light bg-light"
 };
 var _hoisted_3 = {
-  "class": "collapse navbar-collapse"
+  "class": "navbar-collapse"
 };
 var _hoisted_4 = {
   "class": "navbar-nav w-100"
@@ -23479,11 +23479,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNod
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "/auth/logout",
-  "class": "nav-item nav-link",
-  style: {
-    "color": "#dc3545",
-    "margin-left": "auto"
-  }
+  "class": "btn btn-outline-danger ms-lg-auto"
 }, "Выход", -1
 /* HOISTED */
 );
@@ -23513,7 +23509,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), _hoisted_7])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_view)]);
+  }), _hoisted_7])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_view, {
+    "class": "overflow-auto"
+  })]);
 }
 
 /***/ }),
